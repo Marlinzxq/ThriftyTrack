@@ -1,0 +1,216 @@
+/* Fondo del cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #93bedb; /* Color de fondo de la página */
+}
+
+/* Estilo del encabezado */
+header {
+    background-color: #090303; /* Color de fondo del encabezado */
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Logo */
+header .logo {
+    display: flex;
+    align-items: center;
+}
+
+header .logo img {
+    max-height: 100px;
+    margin-right: 60px;
+}
+
+/* Menú de navegación */
+header nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li a {
+    color: white; /* Color del texto del menú */
+    text-decoration: none;
+    font-size: 16px;
+}
+
+/* Sección que separa (línea gris) */
+.section-separator {
+    border-top: 2px solid #ccc; /* Línea gris */
+    margin: 40px 0; /* Espaciado superior e inferior */
+}
+
+/* Estilos para el carrusel */
+.carousel {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.carousel-container {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 300%;
+}
+
+.carousel-slide {
+    min-width: 100%;
+    box-sizing: border-box;
+}
+
+.carousel-slide img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+}
+
+/* Indicadores del carrusel */
+.carousel-indicators {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+
+.carousel-indicators div {
+    width: 10px;
+    height: 10px;
+    background-color: #888;
+    margin: 0 5px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.carousel-indicators .active {
+    background-color: #333;
+}
+
+/* Estilos adicionales */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: #f35a5a;
+    color: black;
+}
+
+.hero-text h2 {
+    font-size: 36px;
+    margin: 0 0 20px;
+}
+
+.cta-btn {
+    background-color: #000;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#info {
+    padding: 60px 0;
+    background-color: #f8f9fa;
+}
+
+/* Carrusel: Cambiar el color del texto a negro */
+.carousel-caption {
+    color: black; /* Cambiar el color del texto del carrusel a negro */
+    background-color: rgba(12, 10, 10, 0.7); /* Fondo semitransparente para mejor legibilidad */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.alert {
+    background-color: #ceefc1;
+    color: #3c763d;
+    padding: 15px;
+    margin: 20px;
+    border: 1px solid #d0ecba;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Estilos del pie de página */
+.footer {
+    background-color: #2c3e50;
+    color: #5e5e5e;
+}
+
+/* Formulario de correo con fondo claro */
+.email-form {
+    background-color: #44617e; /* Fondo claro */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.email-form input[type="email"] {
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.email-form button {
+    background-color: #007bff;
+    color: #343333;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Social Icons */
+.social-icons a img {
+    width: 24px;
+    height: 24px;
+}
+
+/* Estilo para el botón flotante del chatbot */
+.chatbot-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+    background-color: #25D366; /* Similar al color del botón de WhatsApp */
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.chatbot-btn img {
+    width: 50px;
+    height: 50px;
+}
+
+.chatbot-btn:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
+

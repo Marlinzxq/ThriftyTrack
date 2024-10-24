@@ -1,0 +1,98 @@
+/* Estilo general del cuerpo */
+body {
+    font-family: Arial, sans-serif; /* Fuente general */
+    background-color: #f4f4f4; /* Color de fondo de la página */
+    margin: 0; /* Sin márgenes alrededor del cuerpo */
+    padding: 20px; /* Espaciado interno */
+}
+
+/* Estilo para el contenedor principal */
+.container {
+    max-width: 800px; /* Ancho máximo del contenedor */
+    margin: auto; /* Centramos el contenedor */
+    background: white; /* Fondo blanco para el contenedor */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Estilo para los títulos */
+h1, h2 {
+    color: #333; /* Color de los títulos */
+}
+
+/* Estilo para los formularios */
+form {
+    margin-bottom: 20px; /* Espacio debajo del formulario */
+}
+
+/* Estilo para las etiquetas de los campos */
+label {
+    display: block; /* Cada etiqueta ocupa su propia línea */
+    margin-bottom: 5px; /* Espacio debajo de las etiquetas */
+}
+
+/* Estilo para los campos de entrada */
+input[type="number"],
+input[type="date"],
+input[type="text"],
+input[type="submit"] {
+    width: 100%; /* Ancho completo */
+    padding: 10px; /* Espaciado interno */
+    margin-bottom: 10px; /* Espacio debajo de los campos */
+    border: 1px solid #ccc; /* Borde gris claro */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+/* Estilo para el botón */
+.btn {
+    display: inline-block; /* Mantiene el botón en línea */
+    padding: 10px 20px; /* Espaciado dentro del botón */
+    margin: 10px 0; /* Espaciado alrededor del botón */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    background-color: #4CAF50; /* Color de fondo (verde) */
+    color: white; /* Color del texto */
+    font-size: 16px; /* Tamaño de la fuente */
+    text-align: center; /* Alinear el texto al centro */
+    text-decoration: none; /* Sin subrayado */
+    transition: background-color 0.3s; /* Transición suave para el cambio de color */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+}
+
+/* Cambia el color de fondo al pasar el mouse */
+.btn:hover {
+    background-color: #45a049; /* Un tono más oscuro de verde al pasar el mouse */
+}
+
+/* Estilo para la tabla */
+.table {
+    width: 100%; /* Ancho completo de la tabla */
+    border-collapse: collapse; /* Colapsar bordes de la tabla */
+    margin-top: 20px; /* Espacio encima de la tabla */
+}
+
+/* Estilo para las celdas de la tabla */
+.table th,
+.table td {
+    border: 1px solid #ccc; /* Borde gris claro */
+    padding: 10px; /* Espaciado dentro de las celdas */
+    text-align: left; /* Alinear el texto a la izquierda */
+}
+
+/* Estilo para las cabeceras de la tabla */
+.table th {
+    background-color: #f2f2f2; /* Fondo gris claro */
+    color: #333; /* Color del texto */
+}
+
+/* Estilo para los enlaces */
+a {
+    color: #007bff; /* Color de los enlaces */
+    text-decoration: none; /* Sin subrayado */
+}
+
+/* Cambia el color de los enlaces al pasar el mouse */
+a:hover {
+    text-decoration: underline; /* Subrayar el enlace al pasar el mouse */
+}
